@@ -1,0 +1,12 @@
+.section-table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.section-add-button{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+}

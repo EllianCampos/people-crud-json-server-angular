@@ -1,0 +1,17 @@
+<form novalidate [formGroup]="form" (ngSubmit)="submit()">
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Lastname</mat-label>
+    <input matInput formControlName="lastname" />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Age</mat-label>
+    <input matInput formControlName="age" />
+  </mat-form-field>
+  <div class="button-container">
+    <button mat-stroked-button>Save</button>
+  </div>
+</form>
